@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://images.unsplash.com/flagged/photo-1563967931215-f143df220a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1833&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+body:before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(90deg, #919697, #494749);
+    opacity: 0.7;
+    z-index: -1;
+  }
+
+.App {
+    width: 100%;
+    max-width: 1600px;
+    height: 140%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.App .header {
+    background: linear-gradient(90deg, #3f50a5, #1b2174);
+    color: #fff;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.App .header img {
+    height: 50px;
+    padding-left: 10px
+}
+
+.App > div {
+    /* background: #fff; */
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.App .contactos {
+    background: linear-gradient(90deg, #cd6318, #6c4225);
+    color: #fff;
+    font-size: 20px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+}
+
+.App .herramientas {
+    background: linear-gradient(90deg, #cd6318, #6c4225);
+    color: #fff;
+    font-size: 20px;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App .aerolineas {
+    background: linear-gradient(90deg, #cd6318, #6c4225);
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App .info1 {
+    background-color: #fff;
+    opacity: 70%;
+    height: 240px;
+    margin-top: 5px;
+    margin-right: 0;
+    padding: 0;    
+    transition: transform 200ms ease;
+}
+
+.App .info1:hover {
+    transform: scale(1.03);
+    transition: transform 200ms ease;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+}
+
+.card__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    list-style: none;
+}
+
+.card__item:hover {
+    background-color: #EEEEEE;
+}
+
+.card__item b {
+    color: #cd6318;
+}
+
+.App .info1 i {
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.App .info2 {
+    margin-top: 5px;
+    margin-right: 0;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.App .info2 > a {
+    background-color: #fff;
+    opacity: 70%;
+    height: 120px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 200ms ease;
+    text-decoration: none;
+    color: #000;
+}
+
+.App .info2 > a:hover {
+    background-color: white;
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+}
+
+.p-hotel img {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    height: 40px;
+}
+
+.p-library img {
+    padding-top: 5px;
+    height: 80px;
+}
+
+.portrait img {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: 50px;
+}
+
+.p-amadeus img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 20px;
+}
+
+.sto img {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 50px;
+}
+
+.verint img {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 55px;
+}
+
+.App .info3 {
+    margin-top: 5px;
+    margin-right: 0;
+    margin-left: 20px;
+    gap: 10px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.App .info3 > a {
+    background-color: #fff;
+    opacity: 70%;
+    height: 120px;
+    width: 140px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 200ms ease;
+    text-decoration: none;
+    color: #000;
+}
+
+.App .info3 > a:hover {
+    background-color: white;
+    transform: scale(1.05);
+    transition: transform 200ms ease;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+}
+
+.ags-360 img {
+    height: 80px;
+}
+
+.latam-trade img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+.ctm img {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    height: 50px;
+}
+
+.jet-smart img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+.volaris img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 30px;
+}
+
+.american img {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    height: 20px;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    body {
+        height: 220vh;
+    }
+
+    body::before {
+        height: 220vh;
+    }
+
+    .App {
+        width: 100%;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .App .header {
+        position: fixed;
+        width: 100%;
+    }
+
+    .App .contactos {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width: 500px;
+        height: 70px;
+        margin-top: 100px;
+    }
+
+    .App .info1 {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 500px;
+        height: 300px;
+    }
+
+    .App .herramientas {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width: 500px;
+        height: 70px;
+    }
+
+    .App .info2 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        width: 500px;
+        height: 300px;
+    }
+
+    .App .aerolineas {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        width: 500px;
+        height: 70px;
+    }
+
+    .App .info3 {
+        grid-row-start: 6;
+        grid-row-end: 7;
+        width: 500px;
+        height: 300px;
+    }
+    
+}
+
+
+
+
+
