@@ -15,7 +15,7 @@ function App() {
         <h3>LINKS HERRAMIENTAS CWT</h3>
       </div>
       <div className='aerolineas'>
-        <h3>LINKS AEROLINEAS</h3>
+        <h3>LINKS AEROLINEAS Y PROVEEDORES</h3>
       </div>
       <div className='info1'>
       <article className='card'>
@@ -33,7 +33,7 @@ function App() {
                 <i className="fa-solid fa-hotel"></i>
               </div> <hr />
               <div className='card__item'>
-                <li><b>Verint</b><br /><span>WFMSpanish@mycwt.com</span></li>
+                <li><b>Verint (Work Force Management)</b><br /><span>WFMSpanish@mycwt.com</span></li>
                 <i className="fa-solid fa-clock"></i>
               </div>
             </ul>
@@ -64,6 +64,14 @@ function App() {
           <img src="https://wfo.mt2.verintcloudservices.com/wfo/branding/default/main_two_step.png?v=15.2.924.697" alt="" />
           <b>Verint</b>
         </a>
+        <a className='power-advantage' href="https://poweradvantage.mycwt.com/login-page" target={"_blank"}>
+          <img src="https://mycwt.jiveon.com/groups/image/1491/2.png?a=46547" alt="" />
+          <b>Power Advantage</b>
+        </a>
+        <a className='CXP' href="https://cwt-cwtcxp1-prod1.pegacloud.net/prweb/PRAuth/app/CXP_/5NwfVO74dl9eO-R22P3BMnEyYibt8_7V*/!STANDARD" target={"_blank"}>
+          <img src="/utils/CWT.png" alt="" />
+          <b>CXP</b>
+        </a>
       </div>
       <div className='info3'>
         <a className='ags-360' href="https://ags360.csavianca.com/User/Login?ReturnUrl=%2fAgencySupport%2fIndexAgency#no-back-button" target={"_blank"}>
@@ -90,6 +98,15 @@ function App() {
           <img src="https://www.aa.com/content/images/chrome/rebrand/aa-logo.png" alt="" />
           <b>AMERICAN</b>
         </a>
+        <a className='viva-aerobus' href="https://web.vivaaerobus.com/mx/vivaempresas" target={"_blank"}>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Vivaaerobus-logo.png" alt="" />
+          <b>Viva aerobus</b>
+        </a>
+      </div>
+      <div className='footer'>
+        <b>
+          ¿Quieres agregar algun link o contacto? envia correo con la informacion a Diego Sierra (dsierra@mycwt.com)
+        </b>
       </div>
     </div>
   )
