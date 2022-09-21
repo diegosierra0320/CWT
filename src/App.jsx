@@ -41,8 +41,8 @@ function App() {
       </div>
       <div className='info2'>
           <a className='p-hotel' href="https://int.cwthotel360.com/hotelsearch.aspx?params=zp4oX5hkHY2pq9uBKtB4Qeech3U5qlmb1c+ioyhAM0rMnJM8iHgBdvNFEWIeGiM5E6DbYNaXMq9+SD/YxfsJzhy6894okZsKPUKtFO5jfTw=" target="_blank">
-            <img src="https://int.cwthotel360.com/images/Logo.png" alt="" />
-            <b>Power Hotel</b> 
+            <img src="/utils/CWT.png" alt="" />
+            <b>Power Hotel</b>
           </a>
         <a className='p-library' href="https://iprod1powerlibrary.mycwt.com/" target={"_blank"}>
           <img src="https://iprod1powerlibrary.mycwt.com/Images/power-library-text.png" alt="" />
@@ -101,6 +101,18 @@ function App() {
         <a className='viva-aerobus' href="https://web.vivaaerobus.com/mx/vivaempresas" target={"_blank"}>
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Vivaaerobus-logo.png" alt="" />
           <b>Viva aerobus</b>
+        </a>
+        <a className='plataforma-10' href="https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True" target={"_blank"}>
+          <img src="https://red.plataforma10.net/public/images/logo-plataforma10-login.jpg" alt="" />
+          <b>Plataforma 10</b>
+        </a>
+        <a className='central-pasajes' href="https://www.aiv.tur.ar/aiv/ingreso.htm" target={"_blank"}>
+          <img src="https://www.centraldepasajes.com.ar/cdp/img/home/logo-central-de-pasajes.png" alt="" />
+          <b>Central de pasajes</b>
+        </a>
+        <a className='buquebus' href="https://agencias.buquebus.com/" target={"_blank"}>
+          <img src="/utils/Buque.svg" alt="" />
+          <b>Buquebus</b>
         </a>
       </div>
       <div className='footer'>

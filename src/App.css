@@ -11,7 +11,7 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 100%;
+    min-height: 790px;
 }
 
 body:before {
@@ -21,18 +21,18 @@ body:before {
     position: absolute;
     top: 0;
     background: linear-gradient(90deg, #919697, #494749);
-    opacity: 0.7;
+    opacity: 0.5;
     z-index: -1;
   }
 
 .App {
     width: 100%;
-    max-width: 1600px;
-    height: 140%;
+    height: 100%;
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
+    /* background-color: rebeccapurple; */
 }
 
 .App .header {
@@ -141,6 +141,7 @@ body:before {
     padding: 0;
     flex-wrap: wrap;
     justify-content: center;
+    height: 100px;
 }
 
 .App .info2 > a {
@@ -169,9 +170,9 @@ body:before {
 }
 
 .p-hotel img {
-    padding-top: 15px;
-    padding-bottom: 25px;
-    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: 50px;
 }
 
 .p-library img {
@@ -235,6 +236,7 @@ body:before {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
     cursor: pointer;
     transition: transform 200ms ease;
     text-decoration: none;
@@ -289,6 +291,23 @@ body:before {
     height: 30px;
 }
 
+.plataforma-10 img {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 80px;
+}
+
+.central-pasajes img {
+    padding-top: 10px;
+    height: 60px;
+}
+
+.buquebus img {
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: 40px;
+}
+
 .footer {
     grid-column-start: 1;
     grid-column-end: -1;
@@ -302,11 +321,11 @@ body:before {
 @media screen and (max-width: 1300px) {
 
     body {
-        height: 100%;
+        height: 2000px;
     }
 
     body::before {
-        height: 252%;
+        height: 100%;
     }
 
     .App {
@@ -314,7 +333,7 @@ body:before {
         display: grid;
         grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, auto);
+        grid-template-rows: repeat(4, auto);
         justify-content: center;
         margin-bottom: 20px;
     }
