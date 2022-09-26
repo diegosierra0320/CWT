@@ -78,9 +78,13 @@ function App() {
           <img src="https://ags360.csavianca.com/img/rojo-listo.gif" alt="" />
           <b>AGS 360-AV</b>
         </a>
+        <a className='avianca-trade' href="https://www.avianca.com/co/es/trade/" target={"_blank"}>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKSzXuHGZeVUCYqdP_WFCmYkfjcMgmdmGoJBhrpxWBoAPBzDkqBjwY5Hv9285bfeLxw&usqp=CAU" alt="" />
+          <b>Avianca trade</b>
+        </a>
         <a className='latam-trade' href="https://www.latamtrade.com/" target={"_blank"}>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Latam-logo_-v_%28Indigo%29.svg/1200px-Latam-logo_-v_%28Indigo%29.svg.png" alt="" />
-          <b>LATAM TRADE</b>
+          <b>Latam trade</b>
         </a>
         <a className='ctm' href="https://www.ctmenlinea.com.co/es" target={"_blank"}>
           <img src="https://cdn.bmpcloud.com/static/assets/business/ctm/images/logo.png?v=20155" alt="" />
@@ -88,15 +92,15 @@ function App() {
         </a>
         <a className='jet-smart' href="https://www.jetsmart.com/" target={"_blank"}>
           <img src="https://www.jetsmart.com/images/header/jetsmart-logo-colored.svg" alt="" />
-          <b>JET SMART</b>
+          <b>Jet smart</b>
         </a>
         <a className='volaris' href="https://www.volaris.com/" target={"_blank"}>
           <img src="https://www.volaris.com/uipl-assets/images/volaris-logo.svg" alt="" />
-          <b>VOLARIS</b>
+          <b>Volaris</b>
         </a>
-        <a className='american' href="https://saleslink.aa.com/en-US/index.html#/home" target={"_blank"}>
+        <a className='american' href="https://ssc.aa.com/siebel/app/prmportal/enu/?SWECmd=GotoView&SWEView=Home+Page+View+(SCW)&SWERF=1&SWEHo=&SWEBU=1&SWEApplet0=Login+Applet+(PRM)&SWERowId0=VRId-0" target={"_blank"}>
           <img src="https://www.aa.com/content/images/chrome/rebrand/aa-logo.png" alt="" />
-          <b>AMERICAN</b>
+          <b>American</b>
         </a>
         <a className='viva-aerobus' href="https://web.vivaaerobus.com/mx/vivaempresas" target={"_blank"}>
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Vivaaerobus-logo.png" alt="" />
@@ -113,6 +117,18 @@ function App() {
         <a className='buquebus' href="https://agencias.buquebus.com/" target={"_blank"}>
           <img src="/utils/Buque.svg" alt="" />
           <b>Buquebus</b>
+        </a>
+        <a className='delta' href="https://pro.delta.com/content/agency/erp/es/login.html#" target={"_blank"}>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Delta_logo.svg/368px-Delta_logo.svg.png" alt="" />
+          <b>Delta PRO</b>
+        </a>
+        <a className='United' href="https://jetstream.united.com/?lang=es#/public-landing" target={"_blank"}>
+          <img src="https://1000marcas.net/wp-content/uploads/2020/11/United-Airlines-logo-768x415.png" alt="" />
+          <b>United</b>
+        </a>
+        <a className='KIU-Click' href="https://kiu.click/login/" target={"_blank"}>
+          <img src="https://aerolatinnews.com/wp-content/uploads/2014/08/KIU_MASTER_CHICO_CMYK-e1415184223322.jpg" alt="" />
+          <b>KIU Click</b>
         </a>
       </div>
       <div className='footer'>

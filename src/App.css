@@ -255,6 +255,11 @@ body:before {
     height: 80px;
 }
 
+.avianca-trade img {
+    padding-top: 10px;
+    height: 70px;
+}
+
 .latam-trade img {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -307,6 +312,21 @@ body:before {
     padding-top: 10px;
     height: 40px;
 }
+
+.delta img {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 20px;
+}
+
+.United img {
+    height: 70px;
+}
+
+.KIU-Click img {
+    height: 89px;
+}
+
 
 .footer {
     grid-column-start: 1;
