@@ -327,6 +327,12 @@ body:before {
     height: 89px;
 }
 
+.hanh-air img {
+    padding-top: 30px;
+    padding-bottom: 25px;
+    height: 26px;
+}
+
 
 .footer {
     grid-column-start: 1;

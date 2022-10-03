@@ -130,6 +130,10 @@ function App() {
           <img src="https://aerolatinnews.com/wp-content/uploads/2014/08/KIU_MASTER_CHICO_CMYK-e1415184223322.jpg" alt="" />
           <b>KIU Click</b>
         </a>
+        <a className='hanh-air' href="https://www.hahnair.com/es" target={"_blank"}>
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Hahn_Air_Logo.svg/263px-Hahn_Air_Logo.svg.png" alt="" />
+          <b>Hahn Air</b>
+        </a>
       </div>
       <div className='footer'>
         <b>
