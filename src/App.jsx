@@ -106,6 +106,10 @@ function App() {
           <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Vivaaerobus-logo.png" alt="" />
           <b>Viva aerobus</b>
         </a>
+        <a className='viva-air' href="https://www.vivaair.com/co/es/user/profile" target={"_blank"}>
+          <img src="./utils/viva-air.svg" alt=""/>
+          <b>Viva Air</b>
+        </a>
         <a className='plataforma-10' href="https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True" target={"_blank"}>
           <img src="https://red.plataforma10.net/public/images/logo-plataforma10-login.jpg" alt="" />
           <b>Plataforma 10</b>

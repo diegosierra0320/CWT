@@ -296,6 +296,11 @@ body:before {
     height: 30px;
 }
 
+.viva-air img {
+    padding-top: 10px;
+    height: 70px;
+}
+
 .plataforma-10 img {
     padding-top: 10px;
     padding-bottom: 5px;
