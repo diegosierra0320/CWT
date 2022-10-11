@@ -35,6 +35,10 @@ function App() {
               <div className='card__item'>
                 <li><b>Verint (Work Force Management)</b><br /><span>WFMSpanish@mycwt.com</span></li>
                 <i className="fa-solid fa-clock"></i>
+              </div> <hr />
+              <div className='card__item'>
+                <li><b>TSC Support</b><br /><span>latam.tsc.ww@contactcwt.com</span></li>
+                <i className="fa-solid fa-screwdriver-wrench"></i>
               </div>
             </ul>
           </article>
