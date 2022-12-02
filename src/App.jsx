@@ -79,7 +79,7 @@ function App() {
       <div className='info3'>
         <a className='puntos-latam' href="https://puntoslatam.com.co/autenticacion" target={"_blank"}>
           <img src="https://megaincentivos-p.s3.amazonaws.com/static/images/Latam/logo_image.png" alt="" />
-          <b>Putos Latam</b>
+          <b>Puntos Latam</b>
         </a>
         <a className='ags-360' href="https://ags360.csavianca.com/User/Login?ReturnUrl=%2fAgencySupport%2fIndexAgency#no-back-button" target={"_blank"}>
           <img src="https://ags360.csavianca.com/img/rojo-listo.gif" alt="" />
