@@ -252,6 +252,10 @@ body:before {
     opacity: 100%;
 }
 
+.puntos-latam img {
+    height: 80px;
+}
+
 .ags-360 img {
     height: 80px;
 }
