@@ -43,14 +43,18 @@ function App() {
           </article>
       </div>
       <div className='info2'>
+        <a className='CWT-buzz' href="https://mycwt.jiveon.com/" target="_blank">
+            <img src="/utils/CWT.png" alt="" />
+            <b>BUZZ</b>
+          </a>
+          <a className='p-library' href="https://iprod1powerlibrary.mycwt.com/" target={"_blank"}>
+          <img src="https://iprod1powerlibrary.mycwt.com/Images/power-library-text.png" alt="" />
+          <b>Power Library</b>
+        </a>
           <a className='p-hotel' href="https://int.cwthotel360.com/hotelsearch.aspx?params=zp4oX5hkHY2pq9uBKtB4Qeech3U5qlmb1c+ioyhAM0rMnJM8iHgBdvNFEWIeGiM5E6DbYNaXMq9+SD/YxfsJzhy6894okZsKPUKtFO5jfTw=" target="_blank">
             <img src="/utils/CWT.png" alt="" />
             <b>Power Hotel</b>
           </a>
-        <a className='p-library' href="https://iprod1powerlibrary.mycwt.com/" target={"_blank"}>
-          <img src="https://iprod1powerlibrary.mycwt.com/Images/power-library-text.png" alt="" />
-          <b>Power Library</b>
-        </a>
         <a className='portrait' href="https://maint.mycwt.com/" target={"_blank"}>
           <img src="/utils/CWT.png" alt="" />
           <b>Portrait</b>
@@ -75,6 +79,10 @@ function App() {
           <img src="/utils/CWT.png" alt="" />
           <b>CXP</b>
         </a>
+        <a className='CWT-Password' href="https://cwt.identitynow.com/login/login/?goto=https:%2F%2Fcwt.login.sailpoint.com%2Foauth%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3D8hq2mbZ5Hrg6TVEz%26redirect_uri%3Dhttps:%2F%2Fcwt.identitynow.com%2Foauth%2Fcallback%26state%3DLrqvOduQsLffvmH5QBigVfFU5QrkCK4wHNGEQoxNdfFvvTfgkiMPV0vLQ6DaugnEKHjrjBYQdj1Enrxr0JvDuAGQAAEzzODAtrRa7gMIZR7RJZVQNxRzvmClyy71bbWvw96TB9cjWFRxeE5Jp7HHXYcd7AIeMwwkSkpAexusSEKs7z7cIIV64zabXvX1DA9B0HiKUiE7geQ97wCb9xstRkfBTlNClkKRLX7gckSM2tq3SGMr88FGPESFAfX3zRCa%26authId%3D5c7fe3e5-608f-4990-ba0b-c496c2ac42a4" target="_blank">
+            <img src="/utils/CWT.png" alt="" />
+            <b>CWT Password</b>
+          </a>
       </div>
       <div className='info3'>
         <a className='puntos-latam' href="https://puntoslatam.com.co/autenticacion" target={"_blank"}>

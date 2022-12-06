@@ -176,6 +176,18 @@ body:before {
     height: 50px;
 }
 
+.CWT-Password img {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: 50px;
+}
+
+.CWT-buzz img {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    height: 50px;
+}
+
 .p-library img {
     padding-top: 5px;
     height: 80px;
