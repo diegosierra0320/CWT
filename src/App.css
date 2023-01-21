@@ -315,6 +315,7 @@ body {
 @media screen and (max-width: 950px) {
     body {
         padding: 0;
+        background-attachment: fixed;
     }
 
     .App {
