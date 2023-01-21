@@ -4,439 +4,403 @@
 }
 
 body {
-    color: #000;
+    color: azure;
     font-family: 'Roboto', sans-serif;
-    background-image: url('https://images.unsplash.com/flagged/photo-1563967931215-f143df220a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1833&q=80');
+    background-image: linear-gradient(rgba(73, 67, 59, 0.5), rgba(170, 175, 185, 0.5)),
+     url('https://images.unsplash.com/flagged/photo-1563967931215-f143df220a96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1833&q=80');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
-    min-height: 790px;
 }
 
-body:before {
+/* body::before {
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0;
     background: linear-gradient(90deg, #919697, #494749);
     opacity: 0.5;
     z-index: -1;
-  }
+} */
 
 .App {
     width: 100%;
-    height: 100%;
+    max-width: 1650px;
+}
+
+.container {
     display: grid;
-    grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, auto);
-    /* background-color: rebeccapurple; */
 }
 
-.App .header {
+.container .header {
     background: linear-gradient(90deg, #3f50a5, #1b2174);
-    color: #fff;
-    grid-column-start: 1;
-    grid-column-end: -1;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    position: fixed;
-    align-items: center;
-    z-index: 1;
-}
-
-.App .header img {
     height: 50px;
-    padding-left: 10px
+    border-bottom: 2px solid #ccc;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
-.App > div {
-    /* background: #fff; */
-    padding: 20px;
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
+.header img {
+    height: 50px;
+}
+
+.input_data .underline {
+    background: aliceblue;
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 100%;
+}
+
+.input_data i {
+    color: #ccc;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.input_data .underline:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #4158d0;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input_data input:focus ~ .underline:before,
+.input_data input:valid + .underline:after {
+    transform: scaleX(1);
+}
+
+.input_data {
+    height: 40px;
+    width: 350px;
+    position: relative;
+}
+
+.input_data input {
+    background: none;
+    outline: 0px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    color: aliceblue;
+    border-bottom: 2px solid #ccc;
+}
+
+.input_data input:focus ~ label,
+.input_data input:valid + label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    bottom: 15px;
+}
+
+.input_data label{
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    color: #ccc;
+    transition: all 0.3s ease;
+}
+
+.container .title_1 {
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.title_info {
+    background: linear-gradient(90deg, #cd6318, #6c4225);
+    font-size: 18px;
+    box-sizing: 1px;
+    box-shadow: 0px 5px 5px 1px rgba(245, 246, 248, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
+    padding: 5px;
+    width: 90%;
 }
 
-.App .contactos {
-    background: linear-gradient(90deg, #cd6318, #6c4225);
-    color: #fff;
-    font-size: 20px;
-    height: 70px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
-}
-
-.App .herramientas {
-    background: linear-gradient(90deg, #cd6318, #6c4225);
-    color: #fff;
-    font-size: 20px;
-    margin-right: 0;
+.container .title_2 {
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-.App .aerolineas {
-    background: linear-gradient(90deg, #cd6318, #6c4225);
-    color: #fff;
-    font-size: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
-.App .info1 {
+.container .title_3 {
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.list {
+    min-height: 550px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.container-list {
+    min-height: 300px;
     background-color: #fff;
+    border-radius: 10px;
     opacity: 70%;
-    height: 290px;
-    margin-top: 5px;
-    margin-right: 0;
-    padding: 0;    
-    transition: transform 200ms ease;
+    margin-top: 10px;
+    height: 18%;
     overflow: hidden;
+    width: 90%;
+    transition: transform 200ms ease;
 }
 
-.App .info1:hover {
+.container-list:hover {
     transform: scale(1.03);
     transition: transform 200ms ease;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
     opacity: 100%;
 }
 
-.card__item {
+.container-list_info {
+    color: black;
+    list-style: none;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    list-style: none;
 }
 
-.card__item:hover {
+.container-list_info:hover {
     background-color: #EEEEEE;
 }
 
-.card__item b {
+.container-list_info b {
     color: #cd6318;
 }
 
-.App .info1 i {
-    font-size: 25px;
-    padding-right: 10px;
+.container-list_info a {
+    text-decoration: none;
+    color: black;
 }
 
-.App .info2 {
-    margin-top: 5px;
-    margin-right: 0;
+.container-list_info i {
+    font-size: 20px;
+}
+
+.content-1 {
+    min-height: 550px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
     display: flex;
-    gap: 10px;
-    padding: 0;
-    flex-wrap: wrap;
     justify-content: center;
+    padding: 10px;
+}
+
+.content-1_container {
+    width: 100%;
+    max-height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content-2 {
+    min-height: 550px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.content-2_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    width: 150px;
     height: 100px;
-}
-
-.App .info2 > a {
+    padding: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
     background-color: #fff;
     opacity: 70%;
-    height: 120px;
-    width: 140px;
+    transition: transform 200ms ease;
     overflow: hidden;
-    border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-    transition: transform 200ms ease;
-    text-decoration: none;
-    color: #000;
 }
 
-.App .info2 > a:hover {
-    background-color: white;
-    transform: scale(1.05);
+.card:hover {
+    transform: scale(1.03);
     transition: transform 200ms ease;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
     opacity: 100%;
 }
 
-.p-hotel img {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    height: 50px;
+.card a {
+    text-decoration: none;
+    color: black;
 }
 
-.CWT-Password img {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    height: 50px;
-}
-
-.CWT-buzz img {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    height: 50px;
-}
-
-.p-library img {
-    padding-top: 5px;
-    height: 80px;
-}
-
-.portrait img {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    height: 50px;
-}
-
-.p-amadeus img {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    height: 20px;
-}
-
-.sto img {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    height: 50px;
-}
-
-.verint img {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    height: 55px;
-}
-
-.power-advantage img {
-    height: 90px;
-}
-
-.CXP img {
-    padding-top: 10px;
-    padding-bottom: 30px;
-    height: 50px;
-}
-
-.App .info3 {
-    margin-top: 5px;
-    margin-right: 0;
-    margin-left: 20px;
-    gap: 10px;
-    padding: 0;
+.card div {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-}
-
-.App .info3 > a {
-    background-color: #fff;
-    opacity: 70%;
-    height: 120px;
-    width: 140px;
-    overflow: hidden;
-    border-radius: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    cursor: pointer;
-    transition: transform 200ms ease;
-    text-decoration: none;
-    color: #000;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
 }
 
-.App .info3 > a:hover {
-    background-color: white;
-    transform: scale(1.05);
-    transition: transform 200ms ease;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
-    opacity: 100%;
+.card_name {
+    font-size: 20px;
 }
 
-.puntos-latam img {
-    height: 80px;
+.card_img {
+    padding: 0px;
+    height: 75px
 }
 
-.ags-360 img {
-    height: 80px;
+.card img {
+    object-fit: contain;
+    width:  100%;
+    height: 100%;
 }
 
-.avianca-trade img {
-    padding-top: 10px;
-    height: 70px;
-}
-
-.latam-trade img {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    height: 30px;
-}
-
-.ctm img {
-    padding-top: 25px;
-    padding-bottom: 10px;
-    height: 50px;
-}
-
-.jet-smart img {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    height: 30px;
-}
-
-.volaris img {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    height: 30px;
-}
-
-.american img {
-    padding-top: 40px;
-    padding-bottom: 20px;
-    height: 20px;
-}
-
-.viva-aerobus img {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    height: 30px;
-}
-
-.viva-air img {
-    padding-top: 10px;
-    height: 70px;
-}
-
-.plataforma-10 img {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    height: 80px;
-}
-
-.central-pasajes img {
-    padding-top: 10px;
-    height: 60px;
-}
-
-.buquebus img {
-    padding-bottom: 20px;
-    padding-top: 10px;
-    height: 40px;
-}
-
-.delta img {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    height: 20px;
-}
-
-.United img {
-    height: 70px;
-}
-
-.KIU-Click img {
-    height: 89px;
-}
-
-.hanh-air img {
-    padding-top: 30px;
-    padding-bottom: 25px;
-    height: 26px;
-}
-
-
-.footer {
+.container .footer {
+    text-align: center;
+    padding: 10px;
     grid-column-start: 1;
-    grid-column-end: -1;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0px;
-    height: 5px;
+    grid-column-end: 5;
 }
 
-
-@media screen and (max-width: 1300px) {
-
+@media screen and (max-width: 950px) {
     body {
-        height: 2000px;
-    }
-
-    body::before {
-        height: 100%;
+        padding: 0;
     }
 
     .App {
         width: 100%;
+        overflow: hidden;
+    }
+
+    .container {
         display: grid;
-        grid-gap: 20px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, auto);
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .App .header {
-        position: fixed;
-        width: 100%;
-    }
-
-    .App .contactos {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        width: 500px;
-        height: 70px;
-        margin-top: 100px;
-    }
-
-    .App .info1 {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        width: 500px;
-        height: 300px;
-    }
-
-    .App .herramientas {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        width: 500px;
-        height: 70px;
-    }
-
-    .App .info2 {
-        grid-row-start: 4;
-        grid-row-end: 5;
-        width: 500px;
-        height: 300px;
-    }
-
-    .App .aerolineas {
-        grid-column-start: 1;
-        grid-column-end: 1;
-        width: 500px;
-        height: 70px;
-    }
-
-    .App .info3 {
-        grid-row-start: 6;
-        grid-row-end: 7;
-        width: 500px;
-        height: 300px;
+        grid-template-rows: repeat(8, auto);
     }
     
+    .container .header {
+        width: 64%;
+        padding: 25px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .input_data label {
+        width: 90px;
+    }
+
+    .input_data input:focus ~ label,
+    .input_data input:valid + label{
+    transform: translateY(-20px);
+    width: 250px;
+    font-size: 16px;
 }
+    
+    .title_1 {
+        width: 72%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
 
+    .container .list {
+        width: 72%;
+        min-height: 0px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .container .title_2 {
+        width: 72%;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
 
+    .content-1 {
+        width: 72%;
+        min-height: 1px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    .container .title_3 {
+        width: 72%;
+        padding-top: 150px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
 
-
-
+    .content-2 {
+        width: 72%;
+        min-height: 100px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+       
+    .container .footer {
+        width: 70%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }   
+}
