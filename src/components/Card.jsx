@@ -15,7 +15,7 @@ const Card = () => {
       type: "CWT",
       name: "Power Library",
       url: "https://iprod1powerlibrary.mycwt.com/",
-      img: "https://iprod1powerlibrary.mycwt.com/Images/power-library-text.png"
+      img: "/utils/CWT.png"
     },
     {
       id: 3,
