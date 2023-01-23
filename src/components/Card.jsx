@@ -205,12 +205,12 @@ const Card = () => {
     setSearchInput(e.target.value);
   }
 
-
   useEffect(() => {
     const results = cwtData.filter(data =>
-      data.name.toLowerCase().includes(searchInput));
+      data.name.toLowerCase().includes(searchInput.toLowerCase()));
     setSearchResult(results);
   }, [searchInput])
+
 
   
   return (
