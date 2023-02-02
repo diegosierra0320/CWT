@@ -192,6 +192,13 @@ const Card = () => {
       url: "https://www.hahnair.com/es",
       img: "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Hahn_Air_Logo.svg/263px-Hahn_Air_Logo.svg.png"
     },
+    {
+      id: 28,
+      type: "CWT",
+      name: "Penalidades Aerolineas",
+      url: "https://mycwt.jiveon.com/docs/DOC-29232",
+      img: "/utils/CWT.png"
+    },
   ])
 
 
