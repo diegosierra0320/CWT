@@ -14,15 +14,6 @@ body {
     background-size: cover;
 }
 
-/* body::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: linear-gradient(90deg, #919697, #494749);
-    opacity: 0.5;
-    z-index: -1;
-} */
 
 .App {
     width: 100%;
@@ -130,7 +121,7 @@ body {
     background: linear-gradient(90deg, #cd6318, #6c4225);
     font-size: 18px;
     box-sizing: 1px;
-    box-shadow: 0px 5px 5px 1px rgba(245, 246, 248, 0.5);
+    box-shadow: 0px 5px 5px 1px rgba(248, 248, 245, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,6 +150,65 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+/* .card-example {
+    padding-bottom: 25px;
+    background-color: gray;
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 7px;
+    position: relative;
+}
+
+.openModal:checked ~ .card-example{
+    opacity: 1;
+    visibility: hidden;
+}
+
+.card-example_close {
+    width: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.card-example_close:hover {
+    background-color: #4158d0;
+    color: white;
+}
+
+.card-example_go {
+    cursor: pointer;
+    width: 100px;
+}
+
+.card-example img {
+    height: 100px;
+}
+
+.modal-none {
+    display: none;
+} */
+
+.card-container {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    z-index: 1;
 }
 
 .list {
@@ -250,7 +300,7 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 13px;
 }
 
 .card {
@@ -263,10 +313,11 @@ body {
     background-color: #fff;
     opacity: 70%;
     transition: transform 200ms ease;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .card:hover {
@@ -274,6 +325,42 @@ body {
     transition: transform 200ms ease;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.5);
     opacity: 100%;
+}
+
+.border-yes {
+    opacity: 100%;
+}
+
+.border-yes:before, .border-yes:after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: -4px;
+    background: linear-gradient(120deg, #79fb00, #babd21, #d38613, #a5510c);
+    background-size: 300%;
+    width: 162px;
+    height: 148px;
+    z-index: -1;
+    animation: BGradient 15s ease infinite;
+    border-radius: 10px;
+}
+
+@keyframes BGradient {
+    0% {
+        background-position: 0% 200%;
+    }
+    50% {
+        background-position: 200% 0%;
+    }
+    100% {
+        background-position: 0% 330%;
+    }
+}
+
+.border-yes:after {
+    filter: brightness(1.4);
+    filter: drop-shadow(3px 3px 5px rgba(248, 220, 97));
+    filter: blur(8px);
 }
 
 .card a {
