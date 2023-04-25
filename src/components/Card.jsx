@@ -126,13 +126,21 @@ const Card = () => {
     {
       id: 16,
       type: "suppliers",
+      name: "Hertz",
+      url: "https://www.hertz.com/rentacar/reservation/?&utm_content=M8-SEM&gclid=EAIaIQobChMIweO6g6rF_gIVJiatBh3mIgF1EAAYASAAEgLaivD_BwE&gclsrc=aw.ds",
+      img: "https://images.hertz.com/misc/overlay/hertz-logo-black.png",
+      preferencial: "yes"
+    },
+    {
+      id: 17,
+      type: "suppliers",
       name: "AGS 360",
       url: "https://ags360.csavianca.com/User/Login?ReturnUrl=%2fAgencySupport%2fIndexAgency#no-back-button",
       img: "https://ags360.csavianca.com/img/rojo-listo.gif",
       preferencial: "no"
     },
     {
-      id: 17,
+      id: 18,
       type: "suppliers",
       name: "Avianca trade",
       url: "https://www.avianca.com/co/es/trade/",
@@ -140,7 +148,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 18,
+      id: 19,
       type: "suppliers",
       name: "CTM",
       url: "https://www.ctmenlinea.com.co/es",
@@ -148,7 +156,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 19,
+      id: 20,
       type: "suppliers",
       name: "Jet smart",
       url: "https://www.jetsmart.com/",
@@ -156,7 +164,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 20,
+      id: 21,
       type: "suppliers",
       name: "Volaris",
       url: "https://www.volaris.com/",
@@ -164,7 +172,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 21,
+      id: 22,
       type: "suppliers",
       name: "Viva aerobus",
       url: "https://web.vivaaerobus.com/mx/vivaempresas",
@@ -172,7 +180,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 22,
+      id: 23,
       type: "suppliers",
       name: "Viva Air",
       url: "https://www.vivaair.com/co/es/user/profile",
@@ -180,7 +188,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 23,
+      id: 24,
       type: "suppliers",
       name: "Plataforma 10",
       url: "https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True",
@@ -188,7 +196,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 24,
+      id: 25,
       type: "suppliers",
       name: "Central de pasajes",
       url: "https://www.aiv.tur.ar/aiv/ingreso.htm",
@@ -196,7 +204,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 25,
+      id: 26,
       type: "suppliers",
       name: "Buquebus",
       url: "https://agencias.buquebus.com/",
@@ -204,7 +212,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 26,
+      id: 27,
       type: "suppliers",
       name: "KIU Click",
       url: "https://kiu.click/login/",
@@ -212,7 +220,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 27,
+      id: 28,
       type: "suppliers",
       name: "Hahn Air",
       url: "https://www.hahnair.com/es",
@@ -220,7 +228,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 28,
+      id: 29,
       type: "CWT",
       name: "Penalidades Aerolineas",
       url: "https://mycwt.jiveon.com/docs/DOC-29232",
