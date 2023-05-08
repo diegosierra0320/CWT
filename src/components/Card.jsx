@@ -227,6 +227,54 @@ const Card = () => {
       img: "/utils/CWT.png",
       preferencial: "no"
     },
+    {
+      id: 29,
+      type: "suppliers",
+      name: "Qatar Airways",
+      url: "https://www.qatarairways.com/tradeportal/en/Help.html",
+      img: "/utils/Qatar.PNG",
+      preferencial: "no"
+    },
+    {
+      id: 30,
+      type: "suppliers",
+      name: "Air France",
+      url: "https://www.afkl.biz/s/",
+      img: "/utils/Airfrance.PNG",
+      preferencial: "no"
+    },
+    {
+      id: 31,
+      type: "suppliers",
+      name: "Air Europa",
+      url: "https://www.aireuropa.com/br/es/aea/atencion-al-cliente.html",
+      img: "https://www.aireuropa.com/assets/svgs/ae-logo.svg",
+      preferencial: "no"
+    },
+    {
+      id: 32,
+      type: "suppliers",
+      name: "Copa Airlines",
+      url: "https://www.copaair.com/es-br/agencias/",
+      img: "https://www.copaair.com/assets/Copa-Airlines-blue.svg",
+      preferencial: "no"
+    },
+    {
+      id: 33,
+      type: "suppliers",
+      name: "Iberia",
+      url: "https://www.iberia.com/co/preguntas-frecuentes/?_gl=1*glyy0g*_up*MQ..&gclid=EAIaIQobChMI--GM7KXm_gIV5wOtBh01dABSEAAYASAAEgJxyfD_BwE",
+      img: "https://www.iberia.com/wcs/logos/iberia/logo_iberia_pos.svg",
+      preferencial: "no"
+    },
+    {
+      id: 33,
+      type: "suppliers",
+      name: "Lufthansa",
+      url: "https://www.lufthansa.com/br/es/agencias-de-viajes",
+      img: "https://www.lufthansa.com/etc/designs/dcep/lh-logo-crane.svg",
+      preferencial: "no"
+    },
   ])
 
 
