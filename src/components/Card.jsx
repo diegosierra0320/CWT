@@ -268,7 +268,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 33,
+      id: 34,
       type: "suppliers",
       name: "Lufthansa",
       url: "https://www.lufthansa.com/br/es/agencias-de-viajes",
