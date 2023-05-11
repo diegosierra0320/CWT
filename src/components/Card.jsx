@@ -135,7 +135,7 @@ const Card = () => {
       id: 17,
       type: "suppliers",
       name: "Avianca trade",
-      url: "https://www.avianca.com/co/es/trade/",
+      url: "https://aviancab2c.b2clogin.com/aviancab2c.onmicrosoft.com/b2c_1_pacn_agencias_prd/oauth2/v2.0/authorize?client_id=1d903eec-3c09-48b0-914e-95193d922e02&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Ftrade.avianca.com%2F&client-request-id=eca6bdfe-756b-4b87-976f-0c171404fa76&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.30.0&client_info=1&code_challenge=YL8b5siyU22Od-5G3kE6Pnf2Ld2xg3R0Lsak1mrkwOc&code_challenge_method=S256&nonce=545ffb9a-2358-4319-84dd-e09517f6b480&state=eyJpZCI6ImJhNDE4NGFkLTdkNzItNDY1MS1hNDVlLWI2M2MwNWU2NTk5OSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&ui_locales=undefined",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKSzXuHGZeVUCYqdP_WFCmYkfjcMgmdmGoJBhrpxWBoAPBzDkqBjwY5Hv9285bfeLxw&usqp=CAU",
       preferencial: "no"
     },
