@@ -313,6 +313,13 @@ const Card = () => {
             <label>¿Qué estas buscando?</label>
           <i className="fa-solid fa-magnifying-glass"></i>
         </div>
+
+        <div className='header-text'>
+          <a href="https://communicationsteam.netlify.app/" target='_blank'>
+            <i className="fa-solid fa-bullhorn"></i>
+            <b>Conoce nuestro equipo de comunicación</b>
+          </a>
+        </div>
       </header>
 
       <div className='title_1'>
