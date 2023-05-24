@@ -137,10 +137,42 @@ const Card = () => {
       name: "Avianca trade",
       url: "https://aviancab2c.b2clogin.com/aviancab2c.onmicrosoft.com/b2c_1_pacn_agencias_prd/oauth2/v2.0/authorize?client_id=1d903eec-3c09-48b0-914e-95193d922e02&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Ftrade.avianca.com%2F&client-request-id=eca6bdfe-756b-4b87-976f-0c171404fa76&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.30.0&client_info=1&code_challenge=YL8b5siyU22Od-5G3kE6Pnf2Ld2xg3R0Lsak1mrkwOc&code_challenge_method=S256&nonce=545ffb9a-2358-4319-84dd-e09517f6b480&state=eyJpZCI6ImJhNDE4NGFkLTdkNzItNDY1MS1hNDVlLWI2M2MwNWU2NTk5OSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&ui_locales=undefined",
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKSzXuHGZeVUCYqdP_WFCmYkfjcMgmdmGoJBhrpxWBoAPBzDkqBjwY5Hv9285bfeLxw&usqp=CAU",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 18,
+      type: "suppliers",
+      name: "Air France",
+      url: "https://www.afkl.biz/s/",
+      img: "/utils/Airfrance.PNG",
+      preferencial: "yes"
+    },
+    {
+      id: 19,
+      type: "suppliers",
+      name: "Air Europa",
+      url: "https://www.aireuropa.com/br/es/aea/atencion-al-cliente.html",
+      img: "https://www.aireuropa.com/assets/svgs/ae-logo.svg",
+      preferencial: "yes"
+    },
+    {
+      id: 20,
+      type: "suppliers",
+      name: "Copa Airlines",
+      url: "https://www.copaair.com/es-br/agencias/",
+      img: "https://www.copaair.com/assets/Copa-Airlines-blue.svg",
+      preferencial: "yes"
+    },
+    {
+      id: 21,
+      type: "suppliers",
+      name: "Lufthansa",
+      url: "https://www.lufthansa.com/br/es/agencias-de-viajes",
+      img: "https://www.lufthansa.com/etc/designs/dcep/lh-logo-crane.svg",
+      preferencial: "yes"
+    },
+    {
+      id: 22,
       type: "suppliers",
       name: "CTM",
       url: "https://www.ctmenlinea.com.co/es",
@@ -148,7 +180,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 19,
+      id: 23,
       type: "suppliers",
       name: "Jet smart",
       url: "https://www.jetsmart.com/",
@@ -156,7 +188,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 20,
+      id: 24,
       type: "suppliers",
       name: "Volaris",
       url: "https://www.volaris.com/",
@@ -164,7 +196,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 21,
+      id: 25,
       type: "suppliers",
       name: "Viva aerobus",
       url: "https://web.vivaaerobus.com/mx/vivaempresas",
@@ -172,15 +204,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 22,
-      type: "suppliers",
-      name: "Viva Air",
-      url: "https://www.vivaair.com/co/es/user/profile",
-      img: "./utils/viva-air.svg",
-      preferencial: "no"
-    },
-    {
-      id: 23,
+      id: 26,
       type: "suppliers",
       name: "Plataforma 10",
       url: "https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True",
@@ -188,7 +212,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 24,
+      id: 27,
       type: "suppliers",
       name: "Central de pasajes",
       url: "https://www.aiv.tur.ar/aiv/ingreso.htm",
@@ -196,7 +220,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 25,
+      id: 28,
       type: "suppliers",
       name: "Buquebus",
       url: "https://agencias.buquebus.com/",
@@ -204,7 +228,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 26,
+      id: 29,
       type: "suppliers",
       name: "KIU Click",
       url: "https://kiu.click/login/",
@@ -212,7 +236,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 27,
+      id: 30,
       type: "suppliers",
       name: "Hahn Air",
       url: "https://www.hahnair.com/es",
@@ -220,7 +244,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 28,
+      id: 31,
       type: "CWT",
       name: "Penalidades Aerolineas",
       url: "https://mycwt.jiveon.com/docs/DOC-29232",
@@ -228,35 +252,11 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 29,
+      id: 32,
       type: "suppliers",
       name: "Qatar Airways",
       url: "https://www.qatarairways.com/tradeportal/en/Help.html",
       img: "/utils/Qatar.PNG",
-      preferencial: "no"
-    },
-    {
-      id: 30,
-      type: "suppliers",
-      name: "Air France",
-      url: "https://www.afkl.biz/s/",
-      img: "/utils/Airfrance.PNG",
-      preferencial: "no"
-    },
-    {
-      id: 31,
-      type: "suppliers",
-      name: "Air Europa",
-      url: "https://www.aireuropa.com/br/es/aea/atencion-al-cliente.html",
-      img: "https://www.aireuropa.com/assets/svgs/ae-logo.svg",
-      preferencial: "no"
-    },
-    {
-      id: 32,
-      type: "suppliers",
-      name: "Copa Airlines",
-      url: "https://www.copaair.com/es-br/agencias/",
-      img: "https://www.copaair.com/assets/Copa-Airlines-blue.svg",
       preferencial: "no"
     },
     {
@@ -265,14 +265,6 @@ const Card = () => {
       name: "Iberia",
       url: "https://www.iberia.com/co/preguntas-frecuentes/?_gl=1*glyy0g*_up*MQ..&gclid=EAIaIQobChMI--GM7KXm_gIV5wOtBh01dABSEAAYASAAEgJxyfD_BwE",
       img: "https://www.iberia.com/wcs/logos/iberia/logo_iberia_pos.svg",
-      preferencial: "no"
-    },
-    {
-      id: 34,
-      type: "suppliers",
-      name: "Lufthansa",
-      url: "https://www.lufthansa.com/br/es/agencias-de-viajes",
-      img: "https://www.lufthansa.com/etc/designs/dcep/lh-logo-crane.svg",
       preferencial: "no"
     },
   ])
