@@ -269,10 +269,8 @@ const Card = () => {
     },
   ])
 
-
   //UseState para guardar la data ingresada en el input de busqueda
   const [searchInput, setSearchInput] = useState("");
-
   const [searchResult, setSearchResult] = useState([]);
 
   //Constante para manejar el input de busqueda
