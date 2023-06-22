@@ -267,6 +267,14 @@ const Card = () => {
       img: "https://www.iberia.com/wcs/logos/iberia/logo_iberia_pos.svg",
       preferencial: "no"
     },
+    {
+      id: 34,
+      type: "suppliers",
+      name: "British Airways",
+      url: "https://www.britishairways.com/es-mx/traveltrade",
+      img: "https://www.britishairways.com/cms/global/assets/images/site/brand/ba_masterbrand_positive.svg",
+      preferencial: "no"
+    },
   ])
 
   //UseState para guardar la data ingresada en el input de busqueda
