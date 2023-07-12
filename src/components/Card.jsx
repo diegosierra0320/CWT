@@ -16,7 +16,7 @@ const Card = () => {
       type: "CWT",
       name: "BUZZ My help!",
       url: "https://mycwt.jiveon.com/groups/gsc-colombia",
-      img: "https://mycwt.jiveon.com/groups/image/3012/2.png?a=151748",
+      img: "/utils/myHelp.PNG",
       preferencial: "no"
     },
     {
