@@ -150,13 +150,21 @@ const Card = () => {
     {
       id: 19,
       type: "suppliers",
+      name: "Avianca bajar prechequeo",
+      url: "https://urldefense.com/v3/__https:/aviancatrade.zendesk.com/hc/es/requests/new?ticket_form_id=12514335622427__;!!A6M1_ATJChxdxFyllOMdWA!BkAF2IDZn5QMVxliPkFwqHn8ch6MSqnsSyluL4lXuRiOH-2t2SEitAT_KFKHfZRkjoH3UO1mHB4mEYAwK00$",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDKSzXuHGZeVUCYqdP_WFCmYkfjcMgmdmGoJBhrpxWBoAPBzDkqBjwY5Hv9285bfeLxw&usqp=CAU",
+      preferencial: "yes"
+    },
+    {
+      id: 20,
+      type: "suppliers",
       name: "Air France",
       url: "https://www.afkl.biz/s/",
       img: "/utils/Airfrance.PNG",
       preferencial: "yes"
     },
     {
-      id: 20,
+      id: 21,
       type: "suppliers",
       name: "Air Europa",
       url: "https://www.aireuropa.com/br/es/aea/atencion-al-cliente.html",
@@ -164,7 +172,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 21,
+      id: 22,
       type: "suppliers",
       name: "Copa Airlines",
       url: "https://www.copaair.com/es-br/agencias/",
@@ -172,7 +180,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 22,
+      id: 23,
       type: "suppliers",
       name: "Lufthansa",
       url: "https://www.lufthansa.com/br/es/agencias-de-viajes",
@@ -180,7 +188,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 23,
+      id: 24,
       type: "suppliers",
       name: "CTM",
       url: "https://www.ctmenlinea.com.co/es",
@@ -188,7 +196,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 24,
+      id: 25,
       type: "suppliers",
       name: "Jet smart",
       url: "https://www.jetsmart.com/",
@@ -196,7 +204,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 25,
+      id: 26,
       type: "suppliers",
       name: "Volaris",
       url: "https://www.volaris.com/",
@@ -204,7 +212,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 26,
+      id: 27,
       type: "suppliers",
       name: "Viva aerobus",
       url: "https://web.vivaaerobus.com/mx/vivaempresas",
@@ -212,7 +220,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 27,
+      id: 28,
       type: "suppliers",
       name: "Plataforma 10",
       url: "https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True",
@@ -220,7 +228,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 28,
+      id: 29,
       type: "suppliers",
       name: "Central de pasajes",
       url: "https://www.aiv.tur.ar/aiv/ingreso.htm",
@@ -228,7 +236,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 29,
+      id: 30,
       type: "suppliers",
       name: "Buquebus",
       url: "https://agencias.buquebus.com/",
@@ -236,7 +244,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 30,
+      id: 31,
       type: "suppliers",
       name: "KIU Click",
       url: "https://kiu.click/login/",
@@ -244,7 +252,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 31,
+      id: 32,
       type: "suppliers",
       name: "Hahn Air",
       url: "https://www.hahnair.com/es",
@@ -252,7 +260,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 32,
+      id: 33,
       type: "CWT",
       name: "Penalidades Aerolineas",
       url: "https://mycwt.jiveon.com/docs/DOC-29232",
@@ -260,7 +268,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 33,
+      id: 34,
       type: "suppliers",
       name: "Qatar Airways",
       url: "https://www.qatarairways.com/tradeportal/en/Help.html",
@@ -268,7 +276,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 34,
+      id: 35,
       type: "suppliers",
       name: "Iberia",
       url: "https://www.iberia.com/co/preguntas-frecuentes/?_gl=1*glyy0g*_up*MQ..&gclid=EAIaIQobChMI--GM7KXm_gIV5wOtBh01dABSEAAYASAAEgJxyfD_BwE",
@@ -276,7 +284,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 35,
+      id: 36,
       type: "suppliers",
       name: "British Airways",
       url: "https://www.britishairways.com/es-mx/traveltrade",
