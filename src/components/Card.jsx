@@ -291,6 +291,14 @@ const Card = () => {
       img: "https://www.britishairways.com/cms/global/assets/images/site/brand/ba_masterbrand_positive.svg",
       preferencial: "no"
     },
+    {
+      id: 37,
+      type: "suppliers",
+      name: "Air Canada",
+      url: "https://www.aircanada.com/co/es/aco/home.html",
+      img: "https://logos-world.net/wp-content/uploads/2021/05/Air-Canada-Logo.png",
+      preferencial: "no"
+    },
   ])
 
   //UseState para guardar la data ingresada en el input de busqueda
