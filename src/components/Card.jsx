@@ -299,6 +299,14 @@ const Card = () => {
       img: "https://logos-world.net/wp-content/uploads/2021/05/Air-Canada-Logo.png",
       preferencial: "no"
     },
+    {
+      id: 38,
+      type: "CWT",
+      name: "Comunicados",
+      url: "https://communicationsteam.netlify.app/",
+      img: "/utils/CWT.png",
+      preferencial: "no"
+    }
   ])
 
   //UseState para guardar la data ingresada en el input de busqueda
@@ -337,18 +345,42 @@ const Card = () => {
         </div>
 
         <div className='header-text'>
-          <a href="https://communicationsteam.netlify.app/" target='_blank'>
-            <i className="fa-solid fa-bullhorn"></i>
-            <b>Conoce nuestro equipo de comunicación</b>
-          </a>
+          <ul className='horizontal-menu'>
+            <li>
+              <b>Contactos <i className="fa-solid fa-caret-down"></i></b>
+              <ul className='vertical-menu'>
+                <li>
+                  <b>Trámites Migratorios</b><br />
+                  <a href="mailto:tramitesmigratorios@mycwt.com">tramitesmigratorios@mycwt.com</a>
+                </li> <hr />
+                <li>
+                  <b>Power Library</b><br />
+                  <a href="mailto:ActualizacionesPL@mycwt.com">ActualizacionesPL@mycwt.com</a>
+                </li> <hr />
+                <li>
+                  <b>Power Hotel</b><br />
+                  <a href="mailto:requestsphlatam@mycwt.com">requestsphlatam@mycwt.com</a>
+                </li> <hr />
+                <li>
+                  <b>Verint (Work Force Management)</b><br />
+                  <a href="mailto:WFMSpanish@mycwt.com">WFMSpanish@mycwt.com</a>
+                </li> <hr />
+                <li>
+                  <b>TSC Support</b><br />
+                  <a href="mailto:latam.tsc.ww@contactcwt.com">latam.tsc.ww@contactcwt.com</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
+
       </header>
 
-      <div className='title_1'>
+      {/* <div className='title_1'>
         <div className='title_info'>
           <h2>Contactos</h2>
         </div>
-      </div>
+      </div> */}
 
       <div className='title_2'>
         <div className='title_info'>
@@ -362,7 +394,7 @@ const Card = () => {
         </div>
       </div>
 
-      <div className='list'>
+      {/* <div className='list'>
         <div className='container-list'>
           <article>
               <ul className='container-list_ul'>
@@ -395,7 +427,7 @@ const Card = () => {
               </ul>
             </article>
         </div>
-      </div>
+      </div> */}
 
       <div className='content-1'>
         <div className='content-1_container'>

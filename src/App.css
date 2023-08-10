@@ -110,18 +110,69 @@ body {
 
 .header-text {
     position: absolute;
-    right: 25px;
+    right: 30px;
+    font-size: 25px;
+    cursor: pointer;
 }
 
-.header-text a {
+.vertical-menu {
+    list-style: none;
+    position: absolute;
+    top: 54px;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 10px;
+    width: 450px;
+    padding: 0 15px 0 15px ;
+    text-align: right;
+    transform: scaleY(0);
+    transition: transform 300ms ease;
+    transform-origin: top;
+}
+
+.vertical-menu b {
+    color: #cd6318;
+    font-size: 20px;
+}
+
+.vertical-menu li {
+    padding: 10px 0 10px 0;
+}
+
+.vertical-menu li:hover {
+    background-color: rgba(90, 87, 87, 0.8);
+}
+
+.vertical-menu li a {
+    display: block;
     color: white;
     text-decoration: none;
+    font-size: 18px;
 }
 
-.header-text i {
-    font-size: 30px;
-    padding-right: 10px;
+.horizontal-menu {
+    position: relative;
 }
+
+.horizontal-menu > li > b {
+    display: block;
+}
+
+.horizontal-menu li {
+    list-style: none;
+    transition: 200ms ease;
+  }
+  
+  .horizontal-menu > li:hover {
+    background-color: #FF8B13;
+    transition: 200ms ease;
+  }
+  
+  .horizontal-menu > li:hover .vertical-menu {
+    transform: scaleY(1);
+  }
 
 .container .title_1 {
     height: 100px;
