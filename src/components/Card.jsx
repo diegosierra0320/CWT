@@ -190,13 +190,21 @@ const Card = () => {
     {
       id: 24,
       type: "suppliers",
+      name: "Universal Assistance",
+      url: "https://ar.ec.universal-assistance.com/Emision/Login?culture=es",
+      img: "https://seeklogo.com/images/U/universal-assistance-logo-1797B8158D-seeklogo.com.png",
+      preferencial: "yes"
+    },
+    {
+      id: 25,
+      type: "suppliers",
       name: "CTM",
       url: "https://www.ctmenlinea.com.co/es",
       img: "https://cdn.bmpcloud.com/static/assets/business/ctm/images/logo.png?v=20155",
       preferencial: "no"
     },
     {
-      id: 25,
+      id: 26,
       type: "suppliers",
       name: "Jet smart",
       url: "https://www.jetsmart.com/",
@@ -204,7 +212,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 26,
+      id: 27,
       type: "suppliers",
       name: "Volaris",
       url: "https://www.volaris.com/",
@@ -212,7 +220,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 27,
+      id: 28,
       type: "suppliers",
       name: "Viva aerobus",
       url: "https://web.vivaaerobus.com/mx/vivaempresas",
@@ -220,7 +228,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 28,
+      id: 29,
       type: "suppliers",
       name: "Plataforma 10",
       url: "https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True",
@@ -228,7 +236,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 29,
+      id: 30,
       type: "suppliers",
       name: "Central de pasajes",
       url: "https://www.aiv.tur.ar/aiv/ingreso.htm",
@@ -236,7 +244,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 30,
+      id: 31,
       type: "suppliers",
       name: "Buquebus",
       url: "https://agencias.buquebus.com/",
@@ -244,7 +252,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 31,
+      id: 32,
       type: "suppliers",
       name: "KIU Click",
       url: "https://kiu.click/login/",
@@ -252,7 +260,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 32,
+      id: 33,
       type: "suppliers",
       name: "Hahn Air",
       url: "https://www.hahnair.com/es",
@@ -260,7 +268,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 33,
+      id: 34,
       type: "CWT",
       name: "Penalidades Aerolineas",
       url: "https://mycwt.jiveon.com/docs/DOC-29232",
@@ -268,7 +276,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 34,
+      id: 35,
       type: "suppliers",
       name: "Qatar Airways",
       url: "https://www.qatarairways.com/tradeportal/en/Help.html",
@@ -276,7 +284,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 35,
+      id: 36,
       type: "suppliers",
       name: "Iberia",
       url: "https://www.iberia.com/co/preguntas-frecuentes/?_gl=1*glyy0g*_up*MQ..&gclid=EAIaIQobChMI--GM7KXm_gIV5wOtBh01dABSEAAYASAAEgJxyfD_BwE",
@@ -284,7 +292,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 36,
+      id: 37,
       type: "suppliers",
       name: "British Airways",
       url: "https://www.britishairways.com/es-mx/traveltrade",
@@ -292,7 +300,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 37,
+      id: 38,
       type: "suppliers",
       name: "Air Canada",
       url: "https://www.aircanada.com/co/es/aco/home.html",
@@ -300,7 +308,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 38,
+      id: 39,
       type: "CWT",
       name: "Comunicados",
       url: "https://communicationsteam.netlify.app/",
