@@ -314,6 +314,14 @@ const Card = () => {
       url: "https://communicationsteam.netlify.app/",
       img: "/utils/CWT.png",
       preferencial: "no"
+    },
+    {
+      id: 40,
+      type: "CWT",
+      name: "Placetopay",
+      url: "https://panel.placetopay.ec/",
+      img: "https://static.placetopay.com/placetopay-logo.svg",
+      preferencial: "no"
     }
   ])
 
