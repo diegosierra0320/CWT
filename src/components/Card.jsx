@@ -418,6 +418,14 @@ const Card = () => {
       url: "https://www.wyndhamhotels.com/es-xl/about-us/all-inclusive?cid=DP:gtqn993raxq5yqn&gclid=EAIaIQobChMI2cmmxPXc_gIVyQytBh3r_gHPEAAYASAAEgI8A_D_BwE",
       img: "https://seekvectorlogo.com/wp-content/uploads/2022/01/wyndham-hotels-and-resorts-vector-logo-2022.png",
       preferencial: "yes"
+    },
+    {
+      id: 53,
+      type: "CWT",
+      name: "WPP",
+      url: "https://serviciodeviaje.codelco.cl/login.aspx?Refresh=S",
+      img: "http://www.centrocielo.cl/wp-content/uploads/sites/24/2017/03/logo-codelco-proyectos-ust.jpg",
+      preferencial: "yes"
     }
   ])
 
