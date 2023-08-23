@@ -329,7 +329,7 @@ const Card = () => {
       name: "ACCOR",
       url: "https://group.accor.com/",
       img: "https://group.accor.com/-/media/Corporate/Master-Page/Logos/Accor-Logo-Footer-vDef.png",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 42,
@@ -337,7 +337,7 @@ const Card = () => {
       name: "BWH Hotels",
       url: "https://www.bwhhotelgroup.com/content/bwh-hotelgroup/en_US.html",
       img: "https://www.bwhhotelgroup.com/content/dam/bwh-hg/bwh-hotel-group-logo1.jpg",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 43,
@@ -345,7 +345,7 @@ const Card = () => {
       name: "GHL Hoteles",
       url: "https://www.ghlhoteles.com/",
       img: "https://www.ghlhoteles.com/uploads/logoshotel/logo_ghl.png",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 44,
@@ -353,7 +353,7 @@ const Card = () => {
       name: "Hilton",
       url: "https://www.hilton.com/en/",
       img: "https://www.hilton.com/modules/assets/svgs/logos/WW.svg",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 45,
@@ -369,7 +369,7 @@ const Card = () => {
       name: "Hyatt",
       url: "https://www.hyatt.com/",
       img: "https://1000logos.net/wp-content/uploads/2019/11/Hyatt-Logo.png",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 47,
@@ -377,7 +377,7 @@ const Card = () => {
       name: "Marriott",
       url: "https://www.marriott.com/default.mi",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Marriott_hotels_logo14.svg/2560px-Marriott_hotels_logo14.svg.png",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 48,
@@ -385,7 +385,7 @@ const Card = () => {
       name: "Melia",
       url: "https://www.melia.com/es",
       img: "https://searchlogovector.com/wp-content/uploads/2018/11/meli%C3%A1-hotels-resorts-logo-vector.png",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 49,
@@ -393,7 +393,7 @@ const Card = () => {
       name: "NH Hoteles",
       url: "https://www.nh-hotels.com/",
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Copyright_nh_hotel_group_Logo_NH-Hotels.png/640px-Copyright_nh_hotel_group_Logo_NH-Hotels.png",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 50,
@@ -401,7 +401,7 @@ const Card = () => {
       name: "Habitel",
       url: "https://www.habitelhotels.com/es/",
       img: "https://www.search4.co/empleo//uploaded_images/AT70070974FO30760494.jpg",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 51,
@@ -409,7 +409,7 @@ const Card = () => {
       name: "Radisson",
       url: "https://www.radissonhotels.com/en-us/",
       img: "data:image/png;base64,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",
-      preferencial: "no"
+      preferencial: "yes"
     },
     {
       id: 52,
@@ -417,7 +417,7 @@ const Card = () => {
       name: "Wyndham",
       url: "https://www.wyndhamhotels.com/es-xl/about-us/all-inclusive?cid=DP:gtqn993raxq5yqn&gclid=EAIaIQobChMI2cmmxPXc_gIVyQytBh3r_gHPEAAYASAAEgI8A_D_BwE",
       img: "https://seekvectorlogo.com/wp-content/uploads/2022/01/wyndham-hotels-and-resorts-vector-logo-2022.png",
-      preferencial: "no"
+      preferencial: "yes"
     }
   ])
 
