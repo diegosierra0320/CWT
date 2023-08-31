@@ -371,7 +371,7 @@ body {
 }
 
 .content-3 {
-    max-height: 550px;
+    max-height: 450px;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 3;
@@ -390,8 +390,8 @@ body {
 }
 
 .card {
-    width: 140px;
-    height: 90px;
+    width: 120px;
+    height: 70px;
     padding: 20px;
     padding-left: 2px;
     padding-right: 2px;
@@ -399,7 +399,6 @@ body {
     background-color: #fff;
     opacity: 70%;
     transition: transform 200ms ease;
-    /* overflow: hidden; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -424,8 +423,8 @@ body {
     top: -3px;
     background: linear-gradient(120deg, #79fb00, #babd21, #d38613, #a5510c);
     background-size: 300%;
-    width: 152px;
-    height: 138px;
+    width: 132px;
+    height: 118px;
     z-index: -1;
     animation: BGradient 15s ease infinite;
     border-radius: 10px;

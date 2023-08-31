@@ -30,21 +30,13 @@ const Card = () => {
     {
       id: 4,
       type: "CWT",
-      name: "Power Hotel",
-      url: "https://int.cwthotel360.com/hotelsearch.aspx?params=zp4oX5hkHY2pq9uBKtB4Qeech3U5qlmb1c+ioyhAM0rMnJM8iHgBdvNFEWIeGiM5E6DbYNaXMq9+SD/YxfsJzhy6894okZsKPUKtFO5jfTw=",
-      img: "/utils/CWT.png",
-      preferencial: "no"
-    },
-    {
-      id: 5,
-      type: "CWT",
       name: "Portrait",
       url: "https://maint.mycwt.com/",
       img: "/utils/CWT.png",
       preferencial: "no"
     },
     {
-      id: 6,
+      id: 5,
       type: "CWT",
       name: "Amadeus",
       url: "https://1a.sellingplatformconnect.amadeus.com/LoginService/login.jsp?SITE=LOGINURL&LANGUAGE=GB",
@@ -52,7 +44,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 7,
+      id: 6,
       type: "CWT",
       name: "STO",
       url: "https://www.cwtsmarttraveller.com.br/cwtco/default.aspx",
@@ -60,7 +52,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 8,
+      id: 7,
       type: "CWT",
       name: "Verint",
       url: "https://wfo.mt2.verintcloudservices.com/wfo/control/signin",
@@ -68,7 +60,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 9,
+      id: 8,
       type: "CWT",
       name: "Power Advantage",
       url: "https://poweradvantage.mycwt.com/login-page",
@@ -76,7 +68,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 10,
+      id: 9,
       type: "CWT",
       name: "CXP",
       url: "https://cwt-cwtcxp1-prod1.pegacloud.net/prweb/PRAuth/app/CXP_/5NwfVO74dl9eO-R22P3BMnEyYibt8_7V*/!STANDARD",
@@ -84,10 +76,18 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 11,
+      id: 10,
       type: "CWT",
       name: "CWT Password",
       url: "https://cwt.identitynow.com/login/login/?goto=https:%2F%2Fcwt.login.sailpoint.com%2Foauth%2Fauthorize%3Fresponse_type%3Dcode%26client_id%3D8hq2mbZ5Hrg6TVEz%26redirect_uri%3Dhttps:%2F%2Fcwt.identitynow.com%2Foauth%2Fcallback%26state%3DLrqvOduQsLffvmH5QBigVfFU5QrkCK4wHNGEQoxNdfFvvTfgkiMPV0vLQ6DaugnEKHjrjBYQdj1Enrxr0JvDuAGQAAEzzODAtrRa7gMIZR7RJZVQNxRzvmClyy71bbWvw96TB9cjWFRxeE5Jp7HHXYcd7AIeMwwkSkpAexusSEKs7z7cIIV64zabXvX1DA9B0HiKUiE7geQ97wCb9xstRkfBTlNClkKRLX7gckSM2tq3SGMr88FGPESFAfX3zRCa%26authId%3D5c7fe3e5-608f-4990-ba0b-c496c2ac42a4",
+      img: "/utils/CWT.png",
+      preferencial: "no"
+    },
+    {
+      id: 11,
+      type: "CWT",
+      name: "Power Hotel",
+      url: "https://intpilot.cwthotel360.com/",
       img: "/utils/CWT.png",
       preferencial: "no"
     },
