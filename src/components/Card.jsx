@@ -140,7 +140,15 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 18,
+      id: 19,
+      type: "suppliers",
+      name: "Avianca Expert",
+      url: "https://expert.avianca.com/index",
+      img: "https://expert.avianca.com/assets/Images/logo-av-red.svg",
+      preferencial: "yes"
+    },
+    {
+      id: 20,
       type: "suppliers",
       name: "Avianca trade",
       url: "https://aviancab2c.b2clogin.com/aviancab2c.onmicrosoft.com/b2c_1_pacn_agencias_prd/oauth2/v2.0/authorize?client_id=1d903eec-3c09-48b0-914e-95193d922e02&scope=openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Ftrade.avianca.com%2F&client-request-id=eca6bdfe-756b-4b87-976f-0c171404fa76&response_mode=fragment&response_type=code&x-client-SKU=msal.js.browser&x-client-VER=2.30.0&client_info=1&code_challenge=YL8b5siyU22Od-5G3kE6Pnf2Ld2xg3R0Lsak1mrkwOc&code_challenge_method=S256&nonce=545ffb9a-2358-4319-84dd-e09517f6b480&state=eyJpZCI6ImJhNDE4NGFkLTdkNzItNDY1MS1hNDVlLWI2M2MwNWU2NTk5OSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D&ui_locales=undefined",
@@ -148,7 +156,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 19,
+      id: 21,
       type: "suppliers",
       name: "Avianca bajar prechequeo",
       url: "https://urldefense.com/v3/__https:/aviancatrade.zendesk.com/hc/es/requests/new?ticket_form_id=12514335622427__;!!A6M1_ATJChxdxFyllOMdWA!BkAF2IDZn5QMVxliPkFwqHn8ch6MSqnsSyluL4lXuRiOH-2t2SEitAT_KFKHfZRkjoH3UO1mHB4mEYAwK00$",
@@ -156,7 +164,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 20,
+      id: 22,
       type: "suppliers",
       name: "Air France",
       url: "https://www.afkl.biz/s/",
@@ -164,7 +172,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 21,
+      id: 23,
       type: "suppliers",
       name: "Air Europa",
       url: "https://www.aireuropa.com/br/es/aea/atencion-al-cliente.html",
@@ -172,7 +180,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 22,
+      id: 24,
       type: "suppliers",
       name: "Copa Airlines",
       url: "https://www.copaair.com/es-br/agencias/",
@@ -180,7 +188,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 23,
+      id: 25,
       type: "suppliers",
       name: "Lufthansa",
       url: "https://www.lufthansa.com/br/es/agencias-de-viajes",
@@ -188,7 +196,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 24,
+      id: 26,
       type: "suppliers",
       name: "Universal Assistance",
       url: "https://ar.ec.universal-assistance.com/Emision/Login?culture=es",
@@ -196,7 +204,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 25,
+      id: 27,
       type: "suppliers",
       name: "CTM",
       url: "https://www.ctmenlinea.com.co/es",
@@ -204,7 +212,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 26,
+      id: 28,
       type: "suppliers",
       name: "Jet smart",
       url: "https://www.jetsmart.com/",
@@ -212,7 +220,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 27,
+      id: 29,
       type: "suppliers",
       name: "Volaris",
       url: "https://www.volaris.com/",
@@ -220,7 +228,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 28,
+      id: 30,
       type: "suppliers",
       name: "Viva aerobus",
       url: "https://web.vivaaerobus.com/mx/vivaempresas",
@@ -228,7 +236,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 29,
+      id: 31,
       type: "suppliers",
       name: "Plataforma 10",
       url: "https://red.plataforma10.net/?returnUrl=%2FPVs%2FNotificaciones&sesionExpirada=True",
@@ -236,7 +244,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 30,
+      id: 32,
       type: "suppliers",
       name: "Central de pasajes",
       url: "https://www.aiv.tur.ar/aiv/ingreso.htm",
@@ -244,7 +252,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 31,
+      id: 33,
       type: "suppliers",
       name: "Buquebus",
       url: "https://agencias.buquebus.com/",
@@ -252,7 +260,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 32,
+      id: 34,
       type: "suppliers",
       name: "KIU Click",
       url: "https://kiu.click/login/",
@@ -260,7 +268,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 33,
+      id: 35,
       type: "suppliers",
       name: "Hahn Air",
       url: "https://www.hahnair.com/es",
@@ -268,7 +276,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 34,
+      id: 36,
       type: "CWT",
       name: "Penalidades Aerolineas",
       url: "https://mycwt.jiveon.com/docs/DOC-29232",
@@ -276,7 +284,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 35,
+      id: 37,
       type: "suppliers",
       name: "Qatar Airways",
       url: "https://www.qatarairways.com/tradeportal/en/Help.html",
@@ -284,7 +292,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 36,
+      id: 38,
       type: "suppliers",
       name: "Iberia",
       url: "https://www.iberia.com/co/preguntas-frecuentes/?_gl=1*glyy0g*_up*MQ..&gclid=EAIaIQobChMI--GM7KXm_gIV5wOtBh01dABSEAAYASAAEgJxyfD_BwE",
@@ -292,7 +300,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 37,
+      id: 39,
       type: "suppliers",
       name: "British Airways",
       url: "https://www.britishairways.com/es-mx/traveltrade",
@@ -300,7 +308,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 38,
+      id: 40,
       type: "suppliers",
       name: "Air Canada",
       url: "https://www.aircanada.com/co/es/aco/home.html",
@@ -308,7 +316,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 39,
+      id: 41,
       type: "CWT",
       name: "Comunicados",
       url: "https://communicationsteam.netlify.app/",
@@ -316,7 +324,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 40,
+      id: 42,
       type: "CWT",
       name: "Placetopay",
       url: "https://panel.placetopay.ec/",
@@ -324,7 +332,7 @@ const Card = () => {
       preferencial: "no"
     },
     {
-      id: 41,
+      id: 43,
       type: "hotels",
       name: "ACCOR",
       url: "https://group.accor.com/",
@@ -332,7 +340,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 42,
+      id: 44,
       type: "hotels",
       name: "BWH Hotels",
       url: "https://www.bwhhotelgroup.com/content/bwh-hotelgroup/en_US.html",
@@ -340,7 +348,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 43,
+      id: 45,
       type: "hotels",
       name: "GHL Hoteles",
       url: "https://www.ghlhoteles.com/",
@@ -348,7 +356,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 44,
+      id: 46,
       type: "hotels",
       name: "Hilton",
       url: "https://www.hilton.com/en/",
@@ -356,7 +364,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 45,
+      id: 47,
       type: "hotels",
       name: "Hoteles Estelar",
       url: "https://www.hotelesestelar.com/",
@@ -364,7 +372,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 46,
+      id: 48,
       type: "hotels",
       name: "Hyatt",
       url: "https://www.hyatt.com/",
@@ -372,7 +380,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 47,
+      id: 49,
       type: "hotels",
       name: "Marriott",
       url: "https://www.marriott.com/default.mi",
@@ -380,7 +388,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 48,
+      id: 50,
       type: "hotels",
       name: "Melia",
       url: "https://www.melia.com/es",
@@ -388,7 +396,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 49,
+      id: 51,
       type: "hotels",
       name: "NH Hoteles",
       url: "https://www.nh-hotels.com/",
@@ -396,7 +404,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 50,
+      id: 52,
       type: "hotels",
       name: "Habitel",
       url: "https://www.habitelhotels.com/es/",
@@ -404,7 +412,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 51,
+      id: 53,
       type: "hotels",
       name: "Radisson",
       url: "https://www.radissonhotels.com/en-us/",
@@ -412,7 +420,7 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 52,
+      id: 54,
       type: "hotels",
       name: "Wyndham",
       url: "https://www.wyndhamhotels.com/es-xl/about-us/all-inclusive?cid=DP:gtqn993raxq5yqn&gclid=EAIaIQobChMI2cmmxPXc_gIVyQytBh3r_gHPEAAYASAAEgI8A_D_BwE",
@@ -420,12 +428,20 @@ const Card = () => {
       preferencial: "yes"
     },
     {
-      id: 53,
+      id: 55,
       type: "CWT",
       name: "WPP",
       url: "https://serviciodeviaje.codelco.cl/login.aspx?Refresh=S",
       img: "http://www.centrocielo.cl/wp-content/uploads/sites/24/2017/03/logo-codelco-proyectos-ust.jpg",
       preferencial: "yes"
+    },
+    {
+      id: 56,
+      type: "CWT",
+      name: "Partners Info",
+      url: "https://mycwt.jiveon.com/groups/global-partners-network",
+      img: "/Utils/CWT.png",
+      preferencial: "no"
     }
   ])
 
