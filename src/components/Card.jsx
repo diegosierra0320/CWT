@@ -55,7 +55,7 @@ const Card = () => {
       id: 7,
       type: "CWT",
       name: "Verint",
-      url: "https://wfo.mt2.verintcloudservices.com/wfo/control/signin",
+      url: "https://wfo.mt2.verintcloudservices.com/wfo/IDP22.html",
       img: "https://wfo.mt2.verintcloudservices.com/wfo/branding/default/main_two_step.png?v=15.2.924.697",
       preferencial: "no"
     },
