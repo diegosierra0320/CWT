@@ -480,6 +480,40 @@ const Card = () => {
           <i className="fa-solid fa-magnifying-glass"></i>
         </div>
 
+        <div className='header-text_2'>
+          <ul className='horizontal-menu_2'>
+            <li>
+              <b>Tarifas de agente <i className="fa-solid fa-caret-down"></i></b>
+              <ul className='vertical-menu_2'>
+                <li className='estelar'>
+                  <b>Hoteles Estelar</b><br />
+                  <a href="https://www.hotelesestelar.com/" target='_blank'>Codigo para cwt: Agentestelar1 
+                  <img src="https://daragot.com/wp-content/uploads/2020/04/Hotel-Estelar-Daragot.png" alt="" />
+                  </a>
+                </li> <hr />
+                <li className='accor'>
+                  <b>Accor</b><br />
+                  <a href="https://all.accor.com/a/es.html" target='_blank'>all.accor.com/a/es.html
+                  <img src="https://group.accor.com/-/media/Corporate/Master-Page/Logos/Accor-Logo-Footer-vDef.png" alt="" />
+                  </a>
+                </li> <hr />
+                <li className='marriott'>
+                  <b>Marriott</b><br />
+                  <a href="https://hotelexcellence.marriott.com/" target='_blank'>hotelexcellence.marriott.com
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Marriott_hotels_logo14.svg/2560px-Marriott_hotels_logo14.svg.png" alt="" />
+                  </a>
+                </li> <hr />
+                <li className='hilton'>
+                  <b>Hilton</b><br />
+                  <a href="https://www.hilton.com/en/portal/travel-agents/" target='_blank'>hotelexcellence.marriott.com
+                    <img src="https://www.hilton.com/modules/assets/svgs/logos/WW.svg" alt="" />
+                  </a>
+                </li> <hr />
+              </ul>
+            </li>
+          </ul>
+        </div>
+
         <div className='header-text'>
           <ul className='horizontal-menu'>
             <li>
