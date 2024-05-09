@@ -505,7 +505,7 @@ const Card = () => {
                 </li> <hr />
                 <li className='hilton'>
                   <b>Hilton</b><br />
-                  <a href="https://www.hilton.com/en/portal/travel-agents/" target='_blank'>TravelAgents.Hilton.com
+                  <a href="https://www.hilton.com/en/offers/travel-advisor-rate-2000000085/" target='_blank'>TravelAgents.Hilton.com
                     <img src="https://www.hilton.com/modules/assets/svgs/logos/WW.svg" alt="" />
                   </a>
                 </li> <hr />
