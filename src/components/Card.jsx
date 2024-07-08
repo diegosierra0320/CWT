@@ -442,6 +442,14 @@ const Card = () => {
       url: "https://mycwt.jiveon.com/groups/global-partners-network",
       img: "/Utils/CWT.png",
       preferencial: "no"
+    },
+    {
+      id: 57,
+      type: "suppliers",
+      name: "GOL",
+      url: "https://www.voegol.com.br/es-bo/agencias?gad_source=1&gclid=EAIaIQobChMI8MPYgZmQhwMVTjbUAR16KQ80EAAYAiAAEgKXHfD_BwE&gclsrc=aw.ds",
+      img: "https://www.voegol.com.br/themes/custom/voegol/images/logos/gol-logo-mobile.png",
+      preferencial: "no"
     }
   ])
 
