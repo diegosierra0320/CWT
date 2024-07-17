@@ -450,6 +450,14 @@ const Card = () => {
       url: "https://www.voegol.com.br/es-bo/agencias?gad_source=1&gclid=EAIaIQobChMI8MPYgZmQhwMVTjbUAR16KQ80EAAYAiAAEgKXHfD_BwE&gclsrc=aw.ds",
       img: "https://www.voegol.com.br/themes/custom/voegol/images/logos/gol-logo-mobile.png",
       preferencial: "no"
+    },
+    {
+      id: 58,
+      type: "suppliers",
+      name: "Localiza",
+      url: "https://www.localiza.com/colombia/es-co",
+      img: "https://logovectordl.com/wp-content/uploads/2023/07/localiza-rent-a-car-logo-vector.png",
+      preferencial: "no"
     }
   ])
 
