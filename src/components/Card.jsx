@@ -457,7 +457,7 @@ const Card = () => {
       name: "Localiza",
       url: "https://www.localiza.com/colombia/es-co",
       img: "https://logovectordl.com/wp-content/uploads/2023/07/localiza-rent-a-car-logo-vector.png",
-      preferencial: "no"
+      preferencial: "yes"
     }
   ])
 
