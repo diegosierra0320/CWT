@@ -458,6 +458,14 @@ const Card = () => {
       url: "https://www.localiza.com/colombia/es-co",
       img: "https://logovectordl.com/wp-content/uploads/2023/07/localiza-rent-a-car-logo-vector.png",
       preferencial: "no"
+    },
+    {
+      id: 59,
+      type: "suppliers",
+      name: "Iberia agencias",
+      url: "https://www.iberiagencias.com/Iberiagencias/showLoginWeb.do",
+      img: "https://www.iberia.com/wcs/logos/iberia/logo_iberia_pos.svg",
+      preferencial: "no"
     }
   ])
 
