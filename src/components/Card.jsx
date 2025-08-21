@@ -544,6 +544,14 @@ const Card = () => {
               <b>Contactos <i className="fa-solid fa-caret-down"></i></b>
               <ul className='vertical-menu'>
                 <li>
+                  <b>Quality Monitoring</b><br />
+                  <a href="mailto:qualitymonitoring@mycwt.com">qualitymonitoring@mycwt.com</a>
+                </li> <hr />
+                <li>
+                  <b>Customer Care</b><br />
+                  <a href="mailto:customercare.co@contactcwt.com">customercare.co@contactcwt.com</a>
+                </li> <hr />
+                <li>
                   <b>Trámites Migratorios</b><br />
                   <a href="mailto:tramitesmigratorios@mycwt.com">tramitesmigratorios@mycwt.com</a>
                 </li> <hr />
