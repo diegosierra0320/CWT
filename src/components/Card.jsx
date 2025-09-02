@@ -491,8 +491,8 @@ const Card = () => {
 
       <header className='header'>
         {/* Input de busqueda para filtrado en tiempo real */}
-        <img src="/utils/CWT+logo white.png" alt="" />
-
+        
+        <div><img src="/utils/CWT+logo white.png" alt="" /><h6>An Amex GBT solution</h6></div>
         <div className='input_data'>
           <input 
           type="text"
