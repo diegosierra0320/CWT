@@ -39,7 +39,7 @@ const Card = () => {
       id: 5,
       type: "CWT",
       name: "Amadeus",
-      url: "https://1a.sellingplatformconnect.amadeus.com/LoginService/login.jsp?SITE=LOGINURL&LANGUAGE=GB",
+      url: "https://1a.sellingplatformconnect.amadeus.com/LoginService/redirectSAMLSSO.jsp?SITE=LOGINURL&LANGUAGE=GB&PROVIDER_ID=CWTPORTAL",
       img: "https://img2.freepng.es/20180612/ohx/kisspng-amadeus-it-group-amadeus-crs-computer-reservation-abacus-group-5b204cca84db40.0752248415288434665442.jpg",
       preferencial: "no"
     },
